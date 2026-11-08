@@ -1,0 +1,9 @@
+.seven-day-weather-select{
+    -fx-background-color: #348feb;
+    -fx-border-style: solid;
+    -fx-border-width: 2px;
+}
+
+.seven-day-weather-select:hover{
+     -fx-background-color: #1184f0;
+}
