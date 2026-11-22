@@ -179,19 +179,49 @@
                   <Font name="System Bold" size="29.0" />
                </font>
             </Label>
-            <HBox prefHeight="80.0" prefWidth="796.0">
+            <HBox prefHeight="80.0" prefWidth="796.0" VBox.vgrow="NEVER">
                <children>
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" />
-                  <VBox layoutX="733.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" />
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" />
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" />
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" />
+                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="NEVER">
+                     <children>
+                        <ImageView fitHeight="46.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="true" />
+                     </children></VBox>
+                  <VBox layoutX="733.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                     <children>
+                        <ImageView fitHeight="38.0" fitWidth="81.0" pickOnBounds="true" preserveRatio="true" />
+                     </children></VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true" />
+                     </children></VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                     <children>
+                        <ImageView fitHeight="48.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true" />
+                     </children></VBox>
+                  <VBox prefHeight="80.0" prefWidth="67.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                     <children>
+                        <ImageView fitHeight="42.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="true" />
+                     </children></VBox>
                   <VBox />
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" />
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" />
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" />
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" />
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" />
+                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="68.0" pickOnBounds="true" preserveRatio="true" />
+                     </children></VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                     <children>
+                        <ImageView fitHeight="51.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true" />
+                     </children></VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                     <children>
+                        <ImageView fitHeight="48.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" />
+                     </children></VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                     <children>
+                        <ImageView fitHeight="48.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true" />
+                     </children></VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                     <children>
+                        <ImageView fitHeight="58.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true" />
+                     </children></VBox>
                   <VBox alignment="CENTER" layoutX="739.0" layoutY="10.0" prefHeight="80.0" prefWidth="117.0" style="-fx-background-color: green;">
                      <children>
                         <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" styleClass="next-page-button" stylesheets="@../stylesheets/buttons.css" text="Next Page">
