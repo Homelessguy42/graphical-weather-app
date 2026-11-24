@@ -1,0 +1,15 @@
+.search-button{
+    -fx-background-color: #7ec230;
+}
+
+.search-button:hover{
+    -fx-background-color: #87e41d;
+}
+
+.next-page-button{
+    -fx-background-color: #c4c7c1;
+}
+
+.next-page-button:hover{
+    -fx-background-color: #dddfdc;
+}
