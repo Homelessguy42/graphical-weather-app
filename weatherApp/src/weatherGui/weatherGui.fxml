@@ -16,7 +16,7 @@
 <?import javafx.scene.text.TextFlow?>
 <?import javafx.scene.web.WebView?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="858.0" xmlns="http://javafx.com/javafx/27.0.1.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherGui.Controller">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/27.0.1.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weatherGui.Controller">
    <top>
       <HBox prefWidth="800.0" BorderPane.alignment="CENTER">
          <children>
@@ -28,8 +28,8 @@
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></Button>
-            <Region prefHeight="0.0" prefWidth="242.0" />
-            <ToggleButton mnemonicParsing="false" prefHeight="40.0" prefWidth="150.0" styleClass="next-page-button" stylesheets="@../stylesheets/buttons.css" text="Dark Mode Off">
+            <Region prefHeight="40.0" prefWidth="590.0" />
+            <ToggleButton mnemonicParsing="false" prefHeight="40.0" prefWidth="156.0" styleClass="next-page-button" stylesheets="@../stylesheets/buttons.css" text="Dark Mode Off">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor></ToggleButton>
@@ -39,7 +39,7 @@
    <left>
       <VBox prefHeight="377.0" prefWidth="214.0" BorderPane.alignment="CENTER">
          <children>
-            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="214.0" spacing="1.0" styleClass="seven-day-weather-select" stylesheets="@../stylesheets/seven-day-weather-select.css">
+            <HBox alignment="TOP_CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="214.0" spacing="1.0" styleClass="seven-day-weather-select" stylesheets="@../stylesheets/seven-day-weather-select.css">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -49,9 +49,12 @@
                         <Font name="System Bold" size="28.0" />
                      </font>
                   </Label>
-                  <ImageView fitHeight="59.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true" />
-                  <Region prefHeight="59.0" prefWidth="31.0" />
-                  <Label alignment="BASELINE_RIGHT" contentDisplay="CENTER" prefHeight="64.0" prefWidth="53.0" text="N/A">
+                  <ImageView fitHeight="57.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Gear-icon.png" />
+                     </image></ImageView>
+                  <Region prefHeight="51.0" prefWidth="43.0" />
+                  <Label alignment="BASELINE_RIGHT" contentDisplay="CENTER" prefHeight="51.0" prefWidth="46.0" text="N/A">
                      <font>
                         <Font size="25.0" />
                      </font>
@@ -67,7 +70,10 @@
                         <Font name="System Bold" size="28.0" />
                      </font>
                   </Label>
-                  <ImageView fitHeight="57.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="49.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Gear-icon.png" />
+                     </image></ImageView>
                   <Region prefHeight="57.0" prefWidth="44.0" />
                   <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="57.0" prefWidth="57.0" text="N/A" HBox.hgrow="ALWAYS">
                      <font>
@@ -78,25 +84,28 @@
                      </HBox.margin>
                   </Label>
                </children></HBox>
-            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="214.0" styleClass="seven-day-weather-select" stylesheets="@../stylesheets/seven-day-weather-select.css">
+            <HBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="214.0" styleClass="seven-day-weather-select" stylesheets="@../stylesheets/seven-day-weather-select.css">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
                <children>
-                  <Label alignment="TOP_LEFT" contentDisplay="CENTER" prefHeight="45.0" prefWidth="76.0" text="Tue">
+                  <Label contentDisplay="CENTER" prefHeight="45.0" prefWidth="76.0" text="Tue">
                      <font>
                         <Font name="System Bold" size="28.0" />
                      </font>
                   </Label>
-                  <ImageView fitHeight="60.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true" />
-                  <Region prefHeight="60.0" prefWidth="10.0" />
-                  <Label alignment="CENTER_RIGHT" prefHeight="60.0" prefWidth="96.0" text="N/A">
+                  <ImageView fitHeight="48.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Gear-icon.png" />
+                     </image></ImageView>
+                  <Region prefHeight="51.0" prefWidth="53.0" />
+                  <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="51.0" prefWidth="56.0" text="N/A">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Label>
                </children></HBox>
-            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="214.0" styleClass="seven-day-weather-select" stylesheets="@../stylesheets/seven-day-weather-select.css">
+            <HBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="214.0" styleClass="seven-day-weather-select" stylesheets="@../stylesheets/seven-day-weather-select.css">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -106,7 +115,10 @@
                         <Font name="System Bold" size="28.0" />
                      </font>
                   </Label>
-                  <ImageView fitHeight="51.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="51.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Gear-icon.png" />
+                     </image></ImageView>
                   <Region prefHeight="51.0" prefWidth="31.0" />
                   <Label alignment="CENTER_RIGHT" prefHeight="51.0" prefWidth="62.0" text="N/A">
                      <font>
@@ -115,7 +127,7 @@
                   </Label>
                </children>
             </HBox>
-            <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="214.0" styleClass="seven-day-weather-select" stylesheets="@../stylesheets/seven-day-weather-select.css">
+            <HBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="214.0" styleClass="seven-day-weather-select" stylesheets="@../stylesheets/seven-day-weather-select.css">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -125,15 +137,18 @@
                         <Font name="System Bold" size="28.0" />
                      </font>
                   </Label>
-                  <ImageView fitHeight="53.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true" />
-                  <Region prefHeight="53.0" prefWidth="42.0" />
+                  <ImageView fitHeight="53.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Gear-icon.png" />
+                     </image></ImageView>
+                  <Region prefHeight="51.0" prefWidth="31.0" />
                   <Label alignment="CENTER_RIGHT" prefHeight="64.0" prefWidth="63.0" text="N/A">
                      <font>
                         <Font size="25.0" />
                      </font>
                   </Label>
                </children></HBox>
-            <HBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="214.0" styleClass="seven-day-weather-select" stylesheets="@../stylesheets/seven-day-weather-select.css">
+            <HBox alignment="TOP_CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="214.0" styleClass="seven-day-weather-select" stylesheets="@../stylesheets/seven-day-weather-select.css">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -143,7 +158,10 @@
                         <Font name="System Bold" size="28.0" />
                      </font>
                   </Label>
-                  <ImageView fitHeight="53.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="53.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Gear-icon.png" />
+                     </image></ImageView>
                   <Region prefHeight="55.0" prefWidth="48.0" />
                   <Label alignment="CENTER_RIGHT" prefHeight="55.0" prefWidth="53.0" text="N/A">
                      <font>
@@ -151,7 +169,7 @@
                      </font>
                   </Label>
                </children></HBox>
-            <HBox layoutX="10.0" layoutY="347.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="214.0" styleClass="seven-day-weather-select" stylesheets="@../stylesheets/seven-day-weather-select.css">
+            <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="347.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="214.0" styleClass="seven-day-weather-select" stylesheets="@../stylesheets/seven-day-weather-select.css">
                <cursor>
                   <Cursor fx:constant="HAND" />
                </cursor>
@@ -161,7 +179,10 @@
                         <Font name="System Bold" size="28.0" />
                      </font>
                   </Label>
-                  <ImageView fitHeight="50.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="50.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/Gear-icon.png" />
+                     </image></ImageView>
                   <Region prefHeight="55.0" prefWidth="50.0" />
                   <Label alignment="CENTER_RIGHT" prefHeight="57.0" prefWidth="72.0" text="N/A">
                      <font>
@@ -184,7 +205,7 @@
                <children>
                   <HBox prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <Region prefHeight="33.0" prefWidth="769.0" />
+                        <Region prefHeight="33.0" prefWidth="1113.0" />
                         <Button mnemonicParsing="false" prefHeight="41.0" prefWidth="91.0" styleClass="next-page-button" stylesheets="@../stylesheets/buttons.css" text="Next Page">
                            <cursor>
                               <Cursor fx:constant="HAND" />
@@ -194,72 +215,107 @@
                   </HBox>
                </children>
             </VBox>
-            <HBox prefHeight="80.0" prefWidth="796.0" VBox.vgrow="NEVER">
+            <HBox minWidth="-Infinity" prefHeight="80.0" prefWidth="800.0" VBox.vgrow="NEVER">
                <children>
-                  <VBox layoutX="678.0" layoutY="10.0" prefHeight="80.0" prefWidth="67.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                  <VBox alignment="TOP_CENTER" layoutX="678.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="0.0" prefHeight="80.0" prefWidth="72.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
                      <children>
-                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true" />
-                        <Label alignment="CENTER" prefHeight="37.0" prefWidth="74.0" text="N/A" />
+                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Gear-icon.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="97.0" text="N/A" />
                      </children>
                   </VBox>
-                  <VBox prefHeight="80.0" prefWidth="79.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
+                  <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="72.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
                      <children>
-                        <ImageView fitHeight="50.0" fitWidth="78.0" pickOnBounds="true" preserveRatio="true" />
-                        <Label alignment="CENTER" prefHeight="49.0" prefWidth="74.0" text="N/A" />
-                     </children></VBox>
-                  <VBox layoutX="733.0" layoutY="10.0" prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
-                     <children>
-                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true" />
-                        <Label alignment="CENTER" prefHeight="44.0" prefWidth="81.0" text="N/A" />
-                     </children></VBox>
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
-                     <children>
-                        <ImageView fitHeight="50.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" />
-                        <Label alignment="CENTER" prefHeight="38.0" prefWidth="77.0" text="N/A" />
-                     </children></VBox>
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
-                     <children>
-                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true" />
-                        <Label alignment="CENTER" prefHeight="36.0" prefWidth="69.0" text="N/A" />
-                     </children></VBox>
-                  <VBox prefHeight="80.0" prefWidth="67.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
-                     <children>
-                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true" />
-                        <Label alignment="CENTER" prefHeight="37.0" prefWidth="74.0" text="N/A" />
-                     </children></VBox>
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
-                     <children>
-                        <ImageView fitHeight="50.0" fitWidth="85.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@images/Gear-icon.png" />
                            </image></ImageView>
-                        <Label alignment="CENTER" prefHeight="32.0" prefWidth="69.0" text="Label" />
+                        <Label alignment="CENTER" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="96.0" text="N/A" />
                      </children></VBox>
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                  <VBox alignment="TOP_CENTER" layoutX="733.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="72.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
                      <children>
-                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true" />
-                        <Label alignment="CENTER" prefHeight="33.0" prefWidth="73.0" text="Label" />
+                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Gear-icon.png" />
+                           </image></ImageView>
+                        <Label alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="96.0" text="N/A" />
                      </children></VBox>
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                  <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="72.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
                      <children>
-                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true" />
-                        <Label alignment="CENTER" prefHeight="48.0" prefWidth="70.0" text="Label" />
+                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Gear-icon.png" />
+                           </image></ImageView>
+                        <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="96.0" text="N/A" />
                      </children></VBox>
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                  <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="72.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
                      <children>
-                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true" />
-                        <Label alignment="CENTER" prefHeight="44.0" prefWidth="72.0" text="Label" />
+                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Gear-icon.png" />
+                           </image></ImageView>
+                        <Label alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="96.0" text="N/A" />
                      </children></VBox>
-                  <VBox layoutX="320.0" layoutY="10.0" prefHeight="80.0" prefWidth="67.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                  <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="72.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
                      <children>
-                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true" />
-                        <Label alignment="CENTER" prefHeight="37.0" prefWidth="74.0" text="N/A" />
+                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Gear-icon.png" />
+                           </image></ImageView>
+                        <Label alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="96.0" text="N/A" />
+                     </children></VBox>
+                  <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="72.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
+                     <children>
+                        <ImageView fitHeight="53.0" fitWidth="60.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" VBox.vgrow="ALWAYS">
+                           <image>
+                              <Image url="@images/Gear-icon.png" />
+                           </image></ImageView>
+                        <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="96.0" text="N/A" />
+                     </children></VBox>
+                  <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="72.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Gear-icon.png" />
+                           </image></ImageView>
+                        <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="96.0" text="N/A" />
+                     </children></VBox>
+                  <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="72.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="96.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Gear-icon.png" />
+                           </image></ImageView>
+                        <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="96.0" text="N/A" />
+                     </children></VBox>
+                  <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="72.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Gear-icon.png" />
+                           </image></ImageView>
+                        <Label alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="96.0" text="N/A" />
+                     </children></VBox>
+                  <VBox alignment="TOP_CENTER" layoutX="320.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="72.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
+                     <children>
+                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Gear-icon.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="96.0" text="N/A" />
                      </children>
                   </VBox>
-                  <VBox prefHeight="200.0" prefWidth="100.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css">
+                  <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="72.0" styleClass="hourly-weather-vbox" stylesheets="@../stylesheets/hourly-weather-vbox.css" HBox.hgrow="ALWAYS">
                      <children>
-                        <ImageView fitHeight="50.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" />
-                        <Label alignment="CENTER" prefHeight="43.0" prefWidth="72.0" text="Label" />
+                        <ImageView fitHeight="50.0" fitWidth="72.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Gear-icon.png" />
+                           </image></ImageView>
+                        <Label alignment="CENTER" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="96.0" text="N/A" />
                      </children></VBox>
                </children>
             </HBox>
@@ -274,6 +330,6 @@
       </VBox>
    </right>
    <center>
-      <WebView fx:id="weatherStatus" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+      <WebView fx:id="weatherStatus" prefHeight="397.0" prefWidth="766.0" BorderPane.alignment="CENTER" />
    </center>
 </BorderPane>
